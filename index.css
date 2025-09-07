@@ -1,0 +1,33 @@
+body{ 
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  background-image: url(station.avif);
+  background-size: cover;
+  background-position: center;  
+}
+
+p{
+    font-size:7rem;
+    padding-left:25rem;
+    -webkit-text-stroke: 0.5px gainsboro;
+
+}
+#count{
+    padding-left: 45rem;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    
+}
+button{
+    padding:10px;
+    border-radius: 5px;
+    margin:20px;
+    color:bisque;
+    background-color: blue;
+    width:300px;
+    font-weight: bolder;
+    font-size: larger;
+}
